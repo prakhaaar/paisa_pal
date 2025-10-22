@@ -76,7 +76,7 @@ Flutter Documentation
 
 📂 Folder Structure
 
-bash
+```bash
 
 lib/
  ├─ assets/          # Screenshots and images
