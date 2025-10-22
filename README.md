@@ -39,19 +39,26 @@ Clone the repository:
 
 ```bash
 git clone https://github.com/prakhaaar/paisa_pal.git
+
+```
+
 Install dependencies:
 
-bash
+```bash
 
 flutter pub get
+
+```
 Run the app:
 
-bash
+```bash
 
 flutter run
-Make sure your device/emulator is connected before running the app.
 
-Useful Resources
+```
+**Make sure your device/emulator is connected before running the app.**
+
+**Useful Resources**
 Lab: Write your first Flutter app
 
 Cookbook: Useful Flutter samples
@@ -59,15 +66,16 @@ Cookbook: Useful Flutter samples
 Flutter Documentation
 
 ⚡ Technical Details
-Local Storage: Uses Hive to store transactions, wallets, and budgets locally for fast access and offline functionality.
+**Local Storage:** Uses Hive to store transactions, wallets, and budgets locally for fast access and offline functionality.
 
-State Management: Uses Provider for reactive UI updates and efficient state management.
+**State Management:** Uses Provider for reactive UI updates and efficient state management.
 
-Charts & Analytics: Integrated with fl_chart for visualizing spending and income trends.
+**Charts & Analytics:** Integrated with fl_chart for visualizing spending and income trends.
 
-Responsive UI: Works on both mobile phones and tablets with adaptive layouts.
+**Responsive UI:** Works on both mobile phones and tablets with adaptive layouts.
 
 📂 Folder Structure
+
 bash
 
 lib/
@@ -76,11 +84,15 @@ lib/
  ├─ providers/       # Provider state management
  ├─ screens/         # UI screens (Home, Add Debit, Add Credit, Wallet, Profile)
  └─ main.dart        # Entry point
+
+```
+**
 💡 Notes
+
 All transactions are offline-first, so your data is safe even without internet.
 
 Hive ensures fast, local storage for smooth performance.
-
+**
 Flexible filtering options help analyze spending by day, week, month, or year.
 
-Made with ❤️ using Flutter
+**Made with ❤️ using Flutter**
