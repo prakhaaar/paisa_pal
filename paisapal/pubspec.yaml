@@ -1,0 +1,42 @@
+name: paisapal
+description: "A new Flutter project."
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # 📦 Local database
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  path_provider: ^2.1.2
+
+  # ✨ UI & Icons
+  cupertino_icons: ^1.0.8
+  google_fonts: ^6.2.1
+  font_awesome_flutter: ^10.7.0
+
+  # 📊 Charts & Animations
+  fl_chart: ^0.68.0
+  animations: ^2.0.10
+  smooth_page_indicator: ^1.1.0
+
+  # 🌫️ Glassmorphism Effects
+  glassmorphism_ui: ^0.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+  # 🛠️ For Hive code generation
+  build_runner: ^2.4.9
+  hive_generator: ^2.0.1
+
+flutter:
+  uses-material-design: true
