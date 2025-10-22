@@ -27,7 +27,7 @@ All screenshots are stored in `lib/assets/`:
 
 | Wallet | Profile |
 |--------|---------|
-| ![Wallet](paisapal/lib/assests/wallet.png) | ![Profile](paisapal/lib/profile.png) |
+| ![Wallet](paisapal/lib/assests/wallet.png) | ![Profile](paisapal/lib/assests/profile.png) |
 
 ---
 
