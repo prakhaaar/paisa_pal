@@ -20,41 +20,6 @@ An optimized app for daily expense tracking and personal finance management. Tra
 
 Clone the repository:
 
+```bash
 git clone https://github.com/prakhaaar/paisa_pal.git
-
-
-Navigate to the project folder:
-
-cd paisa_pal
-
-
-Install dependencies:
-
-flutter pub get
-
-
-Run the app:
-
-flutter run
-
-
-
-
-
-
-
-🌟 Tech Stack
-
-Flutter – Cross-platform mobile development
-
-SQLite & SharedPreferences – Local storage for transactions
-
-Provider – State management
-
-Google Fonts – Beautiful typography
-
-ScreenUtil – Responsive UI
-
-📄 License
-
-This project is private and not published on pub.dev.
+```

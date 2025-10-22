@@ -1,6 +1,6 @@
 {
-    "name": "paisa_pal",
-    "short_name": "paisa_pal",
+    "name": "managment",
+    "short_name": "managment",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
