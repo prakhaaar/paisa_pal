@@ -1,16 +1,78 @@
-# paisapal
+# 💸 Paisa Pal
 
-A new Flutter project.
+**Paisa Pal** is an optimized Flutter app for **daily expense tracking and personal finance management**. Track your spending, manage budgets, and make smarter financial decisions! 📊📱💰
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🚀 Features
 
-A few resources to get you started if this is your first Flutter project:
+- **📝 Daily Expense & Income Tracking** – Log every transaction quickly and easily.
+- **📊 Category-wise Analysis** – Visualize spending patterns with interactive charts.
+- **💰 Budget Management** – Set budgets, track progress, and manage your financial goals.
+- **🌎 Multi-Currency Support** – Track finances in multiple currencies.
+- **🔒 Secure Storage** – All data is stored locally and safely using **Hive**, a lightweight and fast key-value database for Flutter.
+- **🗓 Flexible Date Filters** – View your finances by day, week, month, quarter, or year.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🖼 Screenshots
+
+All screenshots are stored in `lib/assets/`:
+
+| Home Screen | Add Debit | Add Credit |
+|-------------|-----------|------------|
+| ![Home Screen](lib/assets/home_screen.png) | ![Add Debit](lib/assets/add_debit.png) | ![Add Credit](lib/assets/add_credit.png) |
+
+| Wallet | Profile |
+|--------|---------|
+| ![Wallet](lib/assets/wallet.png) | ![Profile](lib/assets/profile.png) |
+
+---
+
+## 🛠️ Getting Started
+
+This project is a starting point for a Flutter application.  
+
+Clone the repository:
+
+
+git clone https://github.com/prakhaaar/paisa_pal.git
+Install dependencies:
+flutter pub get
+Run the app:
+
+Copy code
+flutter run
+Make sure your device/emulator is connected before running the app.
+
+Useful Resources
+Lab: Write your first Flutter app
+
+Cookbook: Useful Flutter samples
+
+Flutter Documentation
+
+⚡ Technical Details
+Local Storage: Uses Hive to store transactions, wallets, and budgets locally for fast access and offline functionality.
+
+State Management: Uses Provider for reactive UI updates and efficient state management.
+
+Charts & Analytics: Integrated with fl_chart for visualizing spending and income trends.
+
+Responsive UI: Works on both mobile phones and tablets with adaptive layouts.
+
+📂 Folder Structure
+lib/
+ ├─ assets/          # Screenshots and images
+ ├─ models/          # Hive models for transactions and wallets
+ ├─ providers/       # Provider state management
+ ├─ screens/         # UI screens (Home, Add Debit, Add Credit, Wallet, Profile)
+ └─ main.dart        # Entry point
+💡 Notes
+All transactions are offline-first, so your data is safe even without internet.
+
+Hive ensures fast, local storage for smooth performance.
+
+Flexible filtering options help analyze spending by day, week, month, or year.
+
+Made with ❤️ using Flutter
